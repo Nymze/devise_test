@@ -1,4 +1,5 @@
 
+
 <% if user_signed_in? %>
 
 <div class="homecontenant"> 
@@ -18,13 +19,31 @@
 <h2 class="hometitlefont"> Hello <%= current_user.email %></h2>
 </div>
 
-<div class="homesignout">
-<%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "linkouthome" %>
-</div>
+<h3 class="h3scroll"> Scroll Down </h3>
+
 <% else %>
 
 <p> Sign in please</p>
 
 <% end %>
 </div>
+
+<div class="deuxcontainer"> 
+
+<h2 class="buzzh2"> This is buzz's world </h2>
+
 </div>
+
+<div class="divo3"> 
+
+<%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "linkouthome" %>
+
+</div>
+</div>
+
+
+
+
+
+
+
