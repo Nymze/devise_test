@@ -295,3 +295,87 @@ margin-left: 83px;
 	text-decoration: none;
 
 }
+
+
+
+.homecontenant{
+	
+
+position: fixed;	
+display: flex;
+flex-direction: column;
+
+padding:0;
+margin:0;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+
+}
+
+.backgrd{
+
+	background: linear-gradient(#f2f2f2, white);
+	
+	width: 100%;
+	height: 20%;
+	
+
+}
+
+
+
+.astro {
+
+	position: relative;
+	
+	
+	
+    width: 400px;
+	height: 641px;
+	margin-left: 50% ;
+
+}
+
+.hometitle{
+	
+	text-align: center;
+	
+	margin-left: 100px;
+
+
+}
+
+.hometitlefont{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+
+}
+
+.secondcontainer{
+	
+
+	display: flex;
+
+
+}
+
+.homesignout{
+	
+	font-family: 'Montserrat', sans-serif;
+	
+	width: 100%;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 40px;
+	 
+}
+
+.linkouthome{
+	
+text-decoration: none;
+
+
+}

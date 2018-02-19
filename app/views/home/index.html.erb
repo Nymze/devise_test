@@ -3,14 +3,28 @@
 
 <div class="homecontenant"> 
 
-<h2> Hello <%= current_user.email %></h2>
+<div class="backgrd"> 
+</div>
 
 
-<%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+<div class="secondcontainer">
 
+
+<div class= "aldrin"> 
+<%=image_tag("buzzaldrin.png", alt: "astronaute", class: "astro") %>
+</div>
+
+<div class="hometitle">
+<h2 class="hometitlefont"> Hello <%= current_user.email %></h2>
+</div>
+
+<div class="homesignout">
+<%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "linkouthome" %>
+</div>
 <% else %>
 
 <p> Sign in please</p>
 
 <% end %>
+</div>
 </div>
